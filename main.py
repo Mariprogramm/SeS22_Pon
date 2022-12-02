@@ -1,5 +1,5 @@
 def strip_punctuation_ru(s):
-    punctuations = '"! () - = + ;: /<>,.'
+    punctuations = '"!()-=+;:/<>,.'
     new_str = ""
     for char in s:
         if char in punctuations:
